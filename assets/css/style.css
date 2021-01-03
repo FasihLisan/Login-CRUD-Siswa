@@ -1,0 +1,25 @@
+/* mobile/dekstop*/
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("smk_foto.png") no-repeat;
+    background-size: cover;
+    
+}
+.row-login {
+    margin-top: 8%;
+    width: 85%;
+}
+.dekstop-m {
+	margin-top: 50px !important;
+}
+
+
+@media screen and (max-width: 600px) {
+	
+    .row-login{
+        width: auto;
+    }
+    .dekstop-m {
+    	margin-top: 0 !important;
+    }
+}
